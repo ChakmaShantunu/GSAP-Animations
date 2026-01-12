@@ -1,12 +1,10 @@
-🛠️ Technologies Used
+| Technology | Purpose |
+|------------|---------|
+| HTML5      | Page structure |
+| CSS3       | Styling and layout |
+| JavaScript (Vanilla JS) | Animation logic |
+| GSAP (GreenSock Animation Platform) | Smooth, high-performance animations |
 
-HTML5 – Page structure
-
-CSS3 – Styling and layout
-
-JavaScript (Vanilla JS) – Animation logic
-
-GSAP (GreenSock Animation Platform) – Smooth, high‑performance animations
 
 ✨ Features
 
