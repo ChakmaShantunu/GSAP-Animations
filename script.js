@@ -1,12 +1,11 @@
-console.log("hello boss");
-gsap.to("#box1", {
+
+const tl = gsap.timeline({ delay: 1 })
+tl.to("#box1", {
     x: 1000,
-    duration: 2,
-    delay: 1
+    duration: 2
 });
 
-gsap.to("#box2", {
+tl.from("#box2", {
     x: 1000,
-    duration: 2,
-    delay: 1
+    duration: 2
 });
