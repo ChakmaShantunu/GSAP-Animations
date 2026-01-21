@@ -31,15 +31,19 @@ const tl = gsap.timeline()
 tl.from("h2", {
     y: -30,
     opacity: 0,
-    duration: 1,
-    delay: 0.5
+    duration: 0.8,
+    delay: 0.5,
+    scale: 0.95,
+    ease: "power3.out"
 });
 tl.from("h4", {
-    y: -30,
+    y: 20,
     opacity: 0,
-    duration: 1,
-    stagger: 0.3
-});
+    filter: "blur(6px)",
+    duration: 0.8,
+    stagger: 0.3,
+    ease: "power3.out"
+}, "-=0.5");
 
 
 // gsap.to("#box3", {
